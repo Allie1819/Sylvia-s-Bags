@@ -1,0 +1,50 @@
+html,body {
+ margin: 0;
+ padding: 0;
+ height: 100%;
+ width: 100%
+}
+.intro { 
+ height: 100%;
+ width: 100%;
+ background: url(Images/Bag1.jpeg)no-repeat;
+ display: table;
+ top: 0;
+ background-size: cover;
+}
+.inner {
+ display: table-cell;
+ vertical-align: middle;
+ width: 100%;
+ max-width: none;
+ text-align: center;
+ margin:0 auto;
+}
+.btn {
+ border-radius: 7px;
+ font-family: cursive;
+ color: orange;
+ font-size: 135%;
+ padding: 10px 20px;
+ border: solid #036A81 3px;
+ text-transform: uppercase;
+ text-decoration: solid;
+ background-color: lightblue;
+}
+.content h1 {
+ font-family: cursive;
+ color: rgb(226, 43, 113);
+ text-shadow: 20px 50px 300px #000;
+ font-size: 700%;
+ 
+}
+.content h3 {
+ font-family: cursive;
+ color: rgb(38, 129, 214);
+ text-shadow: 20px 50px 300px #000;
+ font-size: 300%;
+}
+.btn:hover {
+ color: #c24b14;
+ border: solid #fff 3px
+}
